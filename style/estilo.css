@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(../midia/IDroid.otf) format("opentype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer {
+    background-color: rgb(6, 1, 17);
+    color: aliceblue;
+    font-family: 'idroid', 'open-sans';
+    text-align: center;
+    font-size: 1.30em;
+    padding: 1em;
+} header > h1:hover {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2.5em;
+    transition-duration: 2s;
+}
+
+nav > a {
+    font-size: 16px;
+    margin: 5px;
+    text-decoration: none;
+    color: aliceblue;
+} nav > a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    transition-duration: 1.5s;
+}
+
+
+main {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 80%;
+    height: 100%;
+    padding: 7em;
+    padding-top: 3em;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+article {
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.caixas {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+#texto {
+    font-size: 1.25em;
+    width: 55%;
+    text-align: justify;
+    display: inline-block;
+}
+#imagem {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+} img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+article > p, ul{
+    font-size: 1.25em;
+}
+ul {
+    padding-top: 1em;
+    display: inline-block;
+    list-style: none;
+}
