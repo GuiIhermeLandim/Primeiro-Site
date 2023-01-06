@@ -2,6 +2,8 @@
 
 O objetivo deste site é aplicar conceitos e metodologias aprendidas em aula, e colocar em prática todo o meu conhecimento adquirido ao longo de aulas. 
 
+![Meu Primeiro Site I Tela I](https://user-images.githubusercontent.com/79064185/211017960-3a13f1bb-2644-4ee4-9163-0bb4ad8ff7bf.png)
+
 ## Etapas de desenvolvimento do site
 
 <details>
